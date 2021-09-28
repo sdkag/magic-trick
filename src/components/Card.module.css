@@ -1,0 +1,46 @@
+.hand>.playing-card:nth-of-type(1) {
+	z-index: 1;
+}
+
+.hand>.playing-card:nth-of-type(2) {
+	z-index: 2;
+}
+
+.hand>.playing-card:nth-of-type(3) {
+	z-index: 3;
+}
+
+.hand>.playing-card:nth-of-type(4) {
+	z-index: 4;
+}
+
+
+
+
+.column {
+	height: 350px;
+	width: 1200px;
+	margin: 15px;
+	padding: 10px 0;
+	box-sizing: border-box;
+	display: "flex";
+	flex-direction: "row";
+	border: 4px solid red;
+	flex: 0 0 1;
+}
+
+.column :hover {
+	border: 4px solid lime;
+	border-radius: 8px;
+}
+
+.card {
+	width: 226px;
+	height: 314px;
+}
+
+
+.board {
+	display: flex;
+	flex-direction: column;
+}
